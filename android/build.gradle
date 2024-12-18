@@ -28,7 +28,6 @@ android {
     namespace 'im.zoe.labs.flutter_notification_listener'
 
     compileSdkVersion 33
-    minSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

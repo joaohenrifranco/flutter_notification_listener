@@ -27,13 +27,14 @@ apply plugin: 'kotlin-android'
 android {
     namespace 'im.zoe.labs.flutter_notification_listener'
 
-    compileSdkVersion 29
+    compileSdkVersion 33
+    minSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 33
     }
 
     kotlinOptions {
